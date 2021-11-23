@@ -1,0 +1,14 @@
+.loading {
+    background-image: url("../../assets/img/Loading.gif");
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 9999;
+}
+.loading-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+}

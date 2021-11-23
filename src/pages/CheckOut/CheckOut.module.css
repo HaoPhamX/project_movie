@@ -1,0 +1,30 @@
+.trapezoid {
+    border-bottom: 50px solid rgb(234, 234, 234);
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    width: 100%;
+    filter: drop-shadow(1px 19px 23px #000000);
+    -webkit-filter: drop-shadow(1px 19px 23px gray);
+    -moz-filter: drop-shadow(1px 19px 23px gray);
+}
+.ghe {
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 16px;
+    background-color: rgb(123, 123, 123);
+    color: white;
+}
+
+.gheDangDat {
+    background-color: rgb(40, 179, 40) !important;
+}
+
+.gheVip {
+    background-color: rgb(255, 94, 0);
+}
+.gheDaDat {
+    background-color: rgb(212, 48, 48);
+    cursor: no-drop;
+}

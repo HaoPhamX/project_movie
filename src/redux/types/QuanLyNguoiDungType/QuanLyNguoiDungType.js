@@ -1,0 +1,4 @@
+export const DANG_NHAP = "DANG_NHAP"
+export const DANG_KY = 'DANG_KY'
+export const THONG_TIN_TAI_KHOAN  = "THONG_TIN_TAI_KHOAN"
+export const LAY_DANH_SACH_NGUOI_DUNG = "LAY_DANH_SACH_NGUOI_DUNG"

@@ -1,0 +1,21 @@
+.modalvideoHide {
+    transform: translateY(-100%);
+}
+.modalVideo {
+    transform: translateY(0);
+}
+.close {
+    cursor: pointer;
+    top: 12%;
+    left: 78%;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    color: white;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.close:hover {
+    opacity: 0.5;
+}

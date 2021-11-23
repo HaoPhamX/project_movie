@@ -1,0 +1,65 @@
+.flip-card {
+  background-color: transparent;
+  width: 100%;
+  height: 350px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  text-align: center;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-icon,
+.flip-card:hover .flip-overlay,
+.flip-card:hover .flip-film-btn {
+  opacity: 1;
+}
+
+.flip-card-front:hover .flip-flim-name {
+  height: 0;
+  opacity: 0;
+  margin: 2px;
+}
+.flip-card-front:hover .flip-film-btn {
+  height: auto;
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  position: relative;
+  color: black;
+}
+.flip-card-bottom {
+  height: 100px;
+}
+.flip-icon {
+  position: absolute;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  width: 50px;
+  height: 50px;
+  line-height: 50px !important;
+  border-radius: 50%;
+  top: 30%;
+  left: 38%;
+  opacity: 0;
+  transition: 0.5s all;
+}
+.flip-overlay {
+  position: absolute;
+  width: 100%;
+  height: 71%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: 0.5s all;
+}
+
